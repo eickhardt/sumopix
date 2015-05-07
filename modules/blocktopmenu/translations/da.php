@@ -2,12 +2,11 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e5b7525b4214a759876af4448bd6b87d'] = 'Top horisontal menu blok';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f7979d86fe0b2cd11f44747ed4ff1100'] = 'Tilføj en ny horisontal menu i toppen af din webshop.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_efc226b17e0532afff43be870bff0de7'] = 'Indstillinger er opdateret.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_d9a776c185f73d018b2915f4d5e7cc05'] = 'Ikke muligt at opdatere indstillingerne for følgende butik(ker): %s';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = 'Udfyld venligst feltet "Link".';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = 'Udfyld venligst feltet \"Link\".';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_cf8d684bd5f89d30da67c95363a48ab9'] = 'Tilføj venligst en etiket.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e8d6809226ab177013e0a26bd2d8b60d'] = 'Tilføj venligst en etiket til dit standardsprog.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_3da9d5745155a430aac6d7de3b6de0c8'] = 'Linket er blevet tilføjet.';
@@ -15,7 +14,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_022bb0995e3256abeeac1788a5e2c5b
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e24e88b590807c2816be15abd7c7dbbc'] = 'Linket er blevet fjernet.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e418ee8626f7941239c5b7a0880691ae'] = 'Ikke muligt at fjerne link fra følgende butik(ker): %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_beb4f951c292ec9218473ffe5f59849d'] = 'Linket er blevet rettet.';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = 'Du kan ikke styre topmenuens elementer fra en "Alle Butikker" eller en "Gruppesbutik" kontekst, vælg direkte den butik du ønsker at redigere';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = 'Du kan ikke styre topmenuens elementer fra en \"Alle Butikker\" eller en \"Gruppesbutik\" kontekst, vælg direkte den butik du ønsker at redigere';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_dd25f68471362f6f5f183d6158d67854'] = 'Ændringerne vil blive tildelt til alle butikkerne';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_bf24faeb13210b5a703f3ccef792b000'] = 'Alle producenter';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_ecf253735ac0cba84a9d2eeff1f1b87c'] = 'Alle leverandører';
@@ -51,6 +50,3 @@ $_MODULE['<{blocktopmenu}prestashop>form_3713a99a6284e39061bd48069807aa52'] = 'V
 $_MODULE['<{blocktopmenu}prestashop>form_8fb31b552d63ffef9df733646a195bc0'] = 'Enheder til rådighed';
 $_MODULE['<{blocktopmenu}prestashop>form_1063e38cb53d94d386f21227fcd84717'] = 'Fjern';
 $_MODULE['<{blocktopmenu}prestashop>form_ec211f7c20af43e742bf2570c3cb84f9'] = 'Tilføj';
-
-
-return $_MODULE;

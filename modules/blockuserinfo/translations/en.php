@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_a2e9cd952cda8ba167e62b25a496c6c1'] = 'User info block';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_970a31aa19d205f92ccfd1913ca04dc0'] = 'Adds a block that displays information about the customer.';
 $_MODULE['<{blockuserinfo}prestashop>blockuserinfo_0c3bf3014aafb90201805e45b5e62881'] = 'View my shopping cart';
@@ -22,6 +21,3 @@ $_MODULE['<{blockuserinfo}prestashop>nav_4b877ba8588b19f1b278510bf2b57ebb'] = 'L
 $_MODULE['<{blockuserinfo}prestashop>nav_c87aacf5673fada1108c9f809d354311'] = 'Sign out';
 $_MODULE['<{blockuserinfo}prestashop>nav_d4151a9a3959bdd43690735737034f27'] = 'Log in to your customer account';
 $_MODULE['<{blockuserinfo}prestashop>nav_b6d4223e60986fa4c9af77ee5f7149c5'] = 'Sign in';
-
-
-return $_MODULE;

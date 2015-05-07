@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{bankwire}prestashop>bankwire_05adcee99142c1a60fb38bb1330bbbc1'] = 'Bank wire';
 $_MODULE['<{bankwire}prestashop>bankwire_a246a8e9907530c4c36b8b4c37bbc823'] = 'Accept payments for your products via bank wire transfer.';
 $_MODULE['<{bankwire}prestashop>bankwire_cbe0a99684b145e77f3e14174ac212e3'] = 'Are you sure about removing these details?';
@@ -33,12 +32,14 @@ $_MODULE['<{bankwire}prestashop>payment_execution_b28be4c423d93e02081f4e79fe2434
 $_MODULE['<{bankwire}prestashop>payment_execution_a7a08622ee5c8019b57354b99b7693b2'] = 'Choose one of the following:';
 $_MODULE['<{bankwire}prestashop>payment_execution_a854d894458d66d92cabf0411c499ef4'] = 'We allow the following currency to be sent via bank wire:';
 $_MODULE['<{bankwire}prestashop>payment_execution_3dd021316505c0204989f984246c6ff1'] = 'Bank wire account information will be displayed on the next page.';
-$_MODULE['<{bankwire}prestashop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = 'Please confirm your order by clicking "I confirm my order".';
+$_MODULE['<{bankwire}prestashop>payment_execution_edd87c9059d88fea45c0bd6384ce92b9'] = 'Please confirm your order by clicking \"I confirm my order\".';
 $_MODULE['<{bankwire}prestashop>payment_execution_46b9e3665f187c739c55983f757ccda0'] = 'I confirm my order';
 $_MODULE['<{bankwire}prestashop>payment_execution_569fd05bdafa1712c4f6be5b153b8418'] = 'Other payment methods';
 $_MODULE['<{bankwire}prestashop>infos_c1be305030739396775edaca9813f77d'] = 'This module allows you to accept secure payments by bank wire.';
 $_MODULE['<{bankwire}prestashop>infos_60742d06006fde3043c77e6549d71a99'] = 'If the client chooses to pay by bank wire, the order\'s status will change to \'Waiting for Payment.\'';
 $_MODULE['<{bankwire}prestashop>infos_5fb4bbf993c23848433caf58e6b2816d'] = 'That said, you must manually confirm the order upon receiving the bank wire.';
+$_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Pay by bank wire';
+$_MODULE['<{bankwire}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(order processing will be longer)';
 $_MODULE['<{bankwire}prestashop>payment_return_88526efe38fd18179a127024aba8c1d7'] = 'Your order on %s is complete.';
 $_MODULE['<{bankwire}prestashop>payment_return_1f8cdc30326f1f930b0c87b25fdac965'] = 'Please send us a bank wire with';
 $_MODULE['<{bankwire}prestashop>payment_return_b2f40690858b404ed10e62bdf422c704'] = 'Amount';
@@ -52,9 +53,3 @@ $_MODULE['<{bankwire}prestashop>payment_return_b9a1cae09e5754424e33764777cfcaa0'
 $_MODULE['<{bankwire}prestashop>payment_return_ca7e41a658753c87973936d7ce2429a8'] = 'If you have questions, comments or concerns, please contact our';
 $_MODULE['<{bankwire}prestashop>payment_return_66fcf4c223bbf4c7c886d4784e1f62e4'] = 'expert customer support team';
 $_MODULE['<{bankwire}prestashop>payment_return_d15feee53d81ea16269e54d4784fa123'] = 'We noticed a problem with your order. If you think this is an error, feel free to contact our';
-$_MODULE['<{bankwire}prestashop>payment_5e1695822fc5af98f6b749ea3cbc9b4c'] = 'Pay by bank wire';
-$_MODULE['<{bankwire}prestashop>payment_4e1fb9f4b46556d64db55d50629ee301'] = '(order processing will be longer)';
-$_MODULE['<{bankwire}prestashop>payment_return_decce112a9e64363c997b04aa71b7cb8'] = 'customer service department.';
-
-
-return $_MODULE;

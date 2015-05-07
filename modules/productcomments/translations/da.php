@@ -2,16 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
-$_MODULE['<{productcomments}prestashop>default_da3e413ae5dde1a6b986203857fb1a59'] = 'Vare ID er ikke gyldigt';
-$_MODULE['<{productcomments}prestashop>default_7b0bf23ae4079e07a3a4cb4d07e2caef'] = 'Udfyld venligst overskrift';
-$_MODULE['<{productcomments}prestashop>default_ddbd56de5feb78ef1aaf60401f8c472b'] = 'Udfyld venligst kommentar';
-$_MODULE['<{productcomments}prestashop>default_1b1030b6294e9096a7d7c40d83d61872'] = 'Kundenavn er forkert';
-$_MODULE['<{productcomments}prestashop>default_26510b8eb6e6053f5e91d51171967ca9'] = 'Du skal være forbundet for at kunne sende en kommentar';
-$_MODULE['<{productcomments}prestashop>default_a201fbadca94d310a1b62407cdc775d5'] = 'Angiv venligst en vurdering';
-$_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = 'Vare ikke fundet';
-$_MODULE['<{productcomments}prestashop>default_6d10b2f471e8894d59ae18e01537ece5'] = 'Vent et øjeblik for du sender endnu en kommentar';
-$_MODULE['<{productcomments}prestashop>default_ba8d7ae5dcadfba739f28a777378f208'] = 'sekund(er) før du kan sende en ny anmeldelse';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_a09ed6c60eb3213939cecb4c580813cd'] = 'Gyldig for hele kataloget';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_467366059d7d7c743a4d0971363a8d66'] = 'Begrænset til visse kategorier';
 $_MODULE['<{productcomments}prestashop>productcommentcriterion_772911becd336c843ab09a1d4b4f66c0'] = 'Begrænset til visse varer';
@@ -21,6 +11,9 @@ $_MODULE['<{productcomments}prestashop>productcomments-ajax_7fa4a3510dafd0eac643
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_f8694a9aae2eb045920f613cfa7f1235'] = 'Afventer godkendelse af moderator.';
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_6bf852d9850445291f5e9d4740ac7b50'] = 'Anmeldelsestekst er obligatorisk.';
 $_MODULE['<{productcomments}prestashop>productcomments-ajax_8aafe254c3e8dceb6425591b322044f2'] = 'Vent venligst %d sekunder før du tilføjer en ny anmeldelse.';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_7c3b0e9898b88deee7ea75aafd2e37e2'] = 'Gennemsnitlig karakter';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_a71a0229e164fecdcde3c4e0f40473fa'] = 'Læs anmeldelser';
+$_MODULE['<{productcomments}prestashop>productcomments-extra_7966126831926ad29c528b239d69f855'] = 'Skriv en anmeldelse';
 $_MODULE['<{productcomments}prestashop>productcomments_b91c4e8b229a399a3bc911d352524a9b'] = 'Vareanmeldelser';
 $_MODULE['<{productcomments}prestashop>productcomments_a8cd99c74a32936a90127454a02d7500'] = 'Tillad brugere at indsende anmeldelser og bedømme varer ud fra særlige kriterier.';
 $_MODULE['<{productcomments}prestashop>productcomments_c888438d14855d7d96a2724ee9c306bd'] = 'Indstillinger opdateret';
@@ -64,10 +57,6 @@ $_MODULE['<{productcomments}prestashop>productcomments_20089c27bf83463fe32e7d30e
 $_MODULE['<{productcomments}prestashop>productcomments_4d3d769b812b6faa6b76e1a8abaece2d'] = 'Aktiv';
 $_MODULE['<{productcomments}prestashop>productcomments_6f7351657f795bc1357a53142b1184cc'] = 'Godkend';
 $_MODULE['<{productcomments}prestashop>productcomments_ecf74aa77715220b378ec668e75655a8'] = 'Ikke krænkende';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_7c3b0e9898b88deee7ea75aafd2e37e2'] = 'Gennemsnitlig karakter';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_a71a0229e164fecdcde3c4e0f40473fa'] = 'Læs anmeldelser';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_7966126831926ad29c528b239d69f855'] = 'Skriv en anmeldelse';
-$_MODULE['<{productcomments}prestashop>productcomments_reviews_e32b7983d3bf98a65e3e96c393867dfa'] = '%s anmeldelse(r)';
 $_MODULE['<{productcomments}prestashop>productcomments_ab51a81c76d95ddc762194d58ec5db63'] = 'Er du sikker på, at du vil indsende denne anmeldelse?';
 $_MODULE['<{productcomments}prestashop>productcomments_9a2ccd41653469a8bd94fbb84b271a14'] = 'Din kommentar er tilføjet!';
 $_MODULE['<{productcomments}prestashop>productcomments_b20968d9aecd2d075519992e9e2f1ffe'] = 'Din kommentar er tilføjet og vises, så snart den er godkendt af en moderator.';
@@ -89,27 +78,17 @@ $_MODULE['<{productcomments}prestashop>productcomments_70397c4b252a5168c5ec00393
 $_MODULE['<{productcomments}prestashop>productcomments_94966d90747b97d1f0f206c98a8b1ac3'] = 'Send';
 $_MODULE['<{productcomments}prestashop>productcomments_e81c4e4f2b7b93b481e13a8553c2ae1b'] = 'eller';
 $_MODULE['<{productcomments}prestashop>productcomments_ea4788705e6873b424c65e91c2846b19'] = 'Fortryd';
+$_MODULE['<{productcomments}prestashop>productcomments_reviews_e32b7983d3bf98a65e3e96c393867dfa'] = '%s anmeldelse(r)';
 $_MODULE['<{productcomments}prestashop>products-comparison_8413c683b4b27cc3f4dbd4c90329d8ba'] = 'Anmeldelser';
 $_MODULE['<{productcomments}prestashop>products-comparison_b1897515d548a960afe49ecf66a29021'] = 'Gennemsnitlig';
 $_MODULE['<{productcomments}prestashop>products-comparison_bc976f6c3405523cde61f63a7cbe224b'] = 'se anmeldelser';
 $_MODULE['<{productcomments}prestashop>tab_8413c683b4b27cc3f4dbd4c90329d8ba'] = 'Anmeldelser';
-$_MODULE['<{productcomments}prestashop>form_b9aefa40a54680bb258f9f9569290fae'] = 'Varenavn';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_dda9c06f33071c9b6fc237ee164109d8'] = 'Bedømmelse';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_899139b5174d8d7a6e38a0360008a695'] = 'Læs anmeldelser';
-$_MODULE['<{productcomments}prestashop>productcomments-extra_c31732fda0c6f01c446db7163b214de4'] = 'Skriv en anmeldelse';
-$_MODULE['<{productcomments}prestashop>productcomments_reviews_d844ad9202d0de8442498775ba6ef819'] = 'Anmeldelse(r)';
-$_MODULE['<{productcomments}prestashop>productcomments_93cba07454f06a4a960172bbd6e2a435'] = 'Ja';
-$_MODULE['<{productcomments}prestashop>productcomments_bafd7322c6e97d25b6299b5d6fe8920b'] = 'Nej';
-$_MODULE['<{productcomments}prestashop>productcomments_c565011debb8e2812ef12853eb6a38a9'] = 'Skriv en anmeldelse!';
-$_MODULE['<{productcomments}prestashop>productcomments_f444678e4f3575d59b32a858630741fd'] = 'Har du dette produkt? Skriv den første anmeldelse';
-$_MODULE['<{productcomments}prestashop>productcomments_c31732fda0c6f01c446db7163b214de4'] = 'Skriv en anmeldelse';
-$_MODULE['<{productcomments}prestashop>productcomments_51ec9bf4aaeab1b25bb57f9f8d4de557'] = 'Titel:';
-$_MODULE['<{productcomments}prestashop>productcomments_240f3031f25601fa128bd4e15f0a37de'] = 'Kommentar:';
-$_MODULE['<{productcomments}prestashop>productcomments_a2ed44743411cf8b80e397448fce104c'] = 'Dit navn:';
-$_MODULE['<{productcomments}prestashop>productcomments_a4d3b161ce1309df1c4e25df28694b7b'] = 'Gem';
-$_MODULE['<{productcomments}prestashop>productcomments_4e3ee0f5bd8f527715fb0776741b9754'] = 'Din kommentar er tilføjet og vises, så snart den er godkendt af en moderator.';
-$_MODULE['<{productcomments}prestashop>products-comparison_5d9acecbb0b55a71dea7403896356001'] = 'Se kommentarer';
-$_MODULE['<{productcomments}prestashop>tab_34e80a799d144cfe4af46815e103f017'] = 'Anmeldelser';
-
-
-return $_MODULE;
+$_MODULE['<{productcomments}prestashop>default_da3e413ae5dde1a6b986203857fb1a59'] = 'Vare ID er ikke gyldigt';
+$_MODULE['<{productcomments}prestashop>default_7b0bf23ae4079e07a3a4cb4d07e2caef'] = 'Udfyld venligst overskrift';
+$_MODULE['<{productcomments}prestashop>default_ddbd56de5feb78ef1aaf60401f8c472b'] = 'Udfyld venligst kommentar';
+$_MODULE['<{productcomments}prestashop>default_1b1030b6294e9096a7d7c40d83d61872'] = 'Kundenavn er forkert';
+$_MODULE['<{productcomments}prestashop>default_26510b8eb6e6053f5e91d51171967ca9'] = 'Du skal være forbundet for at kunne sende en kommentar';
+$_MODULE['<{productcomments}prestashop>default_a201fbadca94d310a1b62407cdc775d5'] = 'Angiv venligst en vurdering';
+$_MODULE['<{productcomments}prestashop>default_dfbe69c6d9568ecb0e65e7b32ed92a3a'] = 'Vare ikke fundet';
+$_MODULE['<{productcomments}prestashop>default_6d10b2f471e8894d59ae18e01537ece5'] = 'Vent et øjeblik for du sender endnu en kommentar';
+$_MODULE['<{productcomments}prestashop>default_ba8d7ae5dcadfba739f28a777378f208'] = 'sekund(er) før du kan sende en ny anmeldelse';

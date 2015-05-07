@@ -1,0 +1,11 @@
+[shop]
+server=127.0.0.1
+database=sumopix
+user=root
+password=
+prefix=ps_
+cookie_key=kEYyijvkad2kedkRId29Z9pRVoN6UPa95GBqaiUeCE6ygRis4PTbsDLu
+cookie_iv=hrkd6TOM
+id_shop=1
+domain=dev-sumopix.dk/
+domain_ssl=dev-sumopix.dk/

@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{blockcategories}prestashop>blockcategories_8f0ed7c57fca428f7e3f8e64d2f00918'] = 'Kategori blok';
 $_MODULE['<{blockcategories}prestashop>blockcategories_15a6f5841d9e4d7e62bec3319b4b7036'] = 'Tilføjer en blok, der viser varekategorierne.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_23e0d4ecc25de9b2777fdaca3e2f3193'] = 'Maksimal dybde: Ugyldigt nummer.';
@@ -28,10 +27,7 @@ $_MODULE['<{blockcategories}prestashop>blockcategories_e3cf5ac19407b1a62c6fccaff
 $_MODULE['<{blockcategories}prestashop>blockcategories_cf3fb1ff52ea1eed3347ac5401ee7f0c'] = 'Stigende';
 $_MODULE['<{blockcategories}prestashop>blockcategories_5f73e737cedf8f4ccf880473a7823005'] = 'Hvor mange kolonner ønsker du i footeren?';
 $_MODULE['<{blockcategories}prestashop>blockcategories_c9cc8cce247e49bae79f15173ce97354'] = 'Gem';
-$_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategorier';
 $_MODULE['<{blockcategories}prestashop>blockcategories_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategorier';
+$_MODULE['<{blockcategories}prestashop>blockcategories_footer_af1b98adf7f686b84cd0b443e022b7a0'] = 'Kategorier';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_c69d9eead832257f587f7c9ec0026fe2'] = 'Du kan uploade maks. 3 billeder.';
 $_MODULE['<{blockcategories}prestashop>blockcategories_admin_acc66e14d297c1bfc20986bf593cb054'] = 'Miniaturer';
-
-
-return $_MODULE;

@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_4f29d8c727dcf2022ac241cb96c31083'] = 'Empty recordset returned';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_f5c493141bb4b2508c5938fd9353291a'] = 'Displaying %1$s of %2$s';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_77587239bf4c54ea493c7033e1dbf636'] = 'Last Name';
@@ -22,6 +21,3 @@ $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_397a5e109a5897ee7d6
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_4bc24eed56e0ba89fc3ab4e094d18d8a'] = 'Sustainable operations: loyalty points or cards, which not only justify communication between merchant and client, but also offer advantages to clients (private offers, discounts).';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_2f408c42912e3afe23a0e4adcbe34b96'] = 'These operations encourage clients to buy products and visit your online store more regularly.';
 $_MODULE['<{statsbestcustomers}prestashop>statsbestcustomers_998e4c5c80f27dec552e99dfed34889a'] = 'CSV Export';
-
-
-return $_MODULE;

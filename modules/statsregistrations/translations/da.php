@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_8b15fc6468c919d299f9a601b61b95fc'] = 'Kundekonti';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_247b3bdef50a59d5a83f23c4f1c8fa47'] = 'Besøgende, der er stoppet ved registreringstrinnet:';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_479c1246d97709e234574e1d2921994d'] = 'Besøgende, der har placeret en ordre direkte efter registrering:';
@@ -15,6 +14,3 @@ $_MODULE['<{statsregistrations}prestashop>statsregistrations_271ef73d55b8e3cc309
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_ded9c8756dc14fd26e3150c4718cd9d0'] = 'Her er en oversigt over, hvad kan påvirke oprettelsen af en kundekonto:';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_8cb5605d77d1d2f9eab6191c0e027747'] = 'Design og brugervenlighed er vigtigere end nogensinde før: et dårligt valgt eller ikke brugervenligt grafisktema kan afskrække besøgende. Du skal finde den rette balance mellem en nyskabende design og udlejning besøgende let flytte. Korrekt stavning og klarhed også inspirere flere kundernes tillid til din butik.';
 $_MODULE['<{statsregistrations}prestashop>statsregistrations_998e4c5c80f27dec552e99dfed34889a'] = 'CSV eksport';
-
-
-return $_MODULE;

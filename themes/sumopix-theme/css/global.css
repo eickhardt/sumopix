@@ -8618,4 +8618,27 @@ div.star.star_hover:after {
         -webkit-box-shadow: 0px 0px 10px #6e93dd;
         box-shadow: 0px 0px 10px #6e93dd; }
 
+#sliders_everywhere_container {
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  background: white; }
+  #sliders_everywhere_container .slidetitle {
+    text-transform: uppercase;
+    font: 600 18px/22px "Open Sans", sans-serif;
+    padding: 20px; }
+  #sliders_everywhere_container .se-next {
+    right: 20px; }
+  #sliders_everywhere_container .se-prev {
+    left: 20px; }
+
+#homesliderpro_shadow {
+  background: url(/img/slider_shadow.png);
+  height: 50px;
+  background-position: 0px -87px;
+  background-size: 100.5% 103px;
+  background-repeat: no-repeat; }
+  @media (min-width: 1px) and (max-width: 767px) {
+    #homesliderpro_shadow {
+      height: 10px; } }
+
 /*# sourceMappingURL=global.css.map */

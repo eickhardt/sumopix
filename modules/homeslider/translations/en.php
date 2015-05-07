@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{homeslider}prestashop>homeslider_693b83f5eca43e2bb1675287c37ce9e2'] = 'Image slider for your homepage';
 $_MODULE['<{homeslider}prestashop>homeslider_c17aed434289cedd02618451e12c8da6'] = 'Adds an image slider to your homepage.';
 $_MODULE['<{homeslider}prestashop>homeslider_3f80dc2cdd06939d4f5514362067cd86'] = 'Invalid values';
@@ -45,9 +44,9 @@ $_MODULE['<{homeslider}prestashop>homeslider_105b296a83f9c105355403f3332af50f'] 
 $_MODULE['<{homeslider}prestashop>homeslider_44f0ca4d7ea17bb667e8d5e31311d959'] = 'The delay between two slides.';
 $_MODULE['<{homeslider}prestashop>homeslider_1e6a508c037fc42ef6155eeadbb80331'] = 'Auto play';
 $_MODULE['<{homeslider}prestashop>homeslider_5a3489cc067f89b268b6958bffb98ebf'] = 'Since multiple languages are activated on your shop, please mind to upload your image for each one of them';
-$_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'You cannot manage slides items from a "All Shops" or a "Group Shop" context, select directly the shop you want to edit';
+$_MODULE['<{homeslider}prestashop>homeslider_c8a1ed10db4201b3ae06ea0aa912028d'] = 'You cannot manage slides items from a \"All Shops\" or a \"Group Shop\" context, select directly the shop you want to edit';
 $_MODULE['<{homeslider}prestashop>homeslider_432ed99c2e808d79c96f892807d33325'] = 'You can only edit this slide from the shop(s) context: %s';
-$_MODULE['<{homeslider}prestashop>homeslider_6a1ae4ad1018e00dddb16a2ce30a24f6'] = 'You cannot add slides from a "All Shops" or a "Group Shop" context';
+$_MODULE['<{homeslider}prestashop>homeslider_6a1ae4ad1018e00dddb16a2ce30a24f6'] = 'You cannot add slides from a \"All Shops\" or a \"Group Shop\" context';
 $_MODULE['<{homeslider}prestashop>homeslider_7a5c11dddbb2118d08611a1f0678bb91'] = 'Unable to get slide shop association information (id_slide: %d)';
 $_MODULE['<{homeslider}prestashop>homeslider_298b615220606d42b6ac60269df0d321'] = 'The modifications will be applied to shop: %s';
 $_MODULE['<{homeslider}prestashop>homeslider_aef3662e6419ddaaa0a31df70e3b6557'] = 'The modifications will be applied to this group: %s';
@@ -59,6 +58,3 @@ $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = 'Add
 $_MODULE['<{homeslider}prestashop>list_379a88861412d686cfaf475c84a24920'] = 'Shared slide';
 $_MODULE['<{homeslider}prestashop>list_7dce122004969d56ae2e0245cb754d35'] = 'Edit';
 $_MODULE['<{homeslider}prestashop>list_f2a6c498fb90ee345d997f888fce3b18'] = 'Delete';
-
-
-return $_MODULE;

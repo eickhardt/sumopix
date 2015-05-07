@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{homeslider}prestashop>homeslider_693b83f5eca43e2bb1675287c37ce9e2'] = 'Billeddias til din hjemmeside';
 $_MODULE['<{homeslider}prestashop>homeslider_c17aed434289cedd02618451e12c8da6'] = 'Tilføj en diasfremviser til din hjemmeside.';
 $_MODULE['<{homeslider}prestashop>homeslider_3f80dc2cdd06939d4f5514362067cd86'] = 'Ugyldige værdier';
@@ -40,6 +39,3 @@ $_MODULE['<{homeslider}prestashop>list_c82324ebbcea34f55627a897b37190e3'] = 'Dia
 $_MODULE['<{homeslider}prestashop>list_ef61fb324d729c341ea8ab9901e23566'] = 'Tilføj ny';
 $_MODULE['<{homeslider}prestashop>list_7dce122004969d56ae2e0245cb754d35'] = 'Rediger';
 $_MODULE['<{homeslider}prestashop>list_f2a6c498fb90ee345d997f888fce3b18'] = 'Slet';
-
-
-return $_MODULE;

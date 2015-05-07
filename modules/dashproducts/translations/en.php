@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{dashproducts}prestashop>dashproducts_6655df4af87b2038afd507a33545a56d'] = 'Dashboard Products';
 $_MODULE['<{dashproducts}prestashop>dashproducts_4a528e24be5aca96e8a15b256efe1f31'] = 'Adds a block with a table of your latest orders and a ranking of your products';
 $_MODULE['<{dashproducts}prestashop>dashproducts_2ea989f83006e233627987293f4bde0a'] = 'Customer Name';
@@ -21,16 +20,16 @@ $_MODULE['<{dashproducts}prestashop>dashproducts_ed4832a84ee072b00a6740f65718359
 $_MODULE['<{dashproducts}prestashop>dashproducts_2c04f1ad7694378897b98624780327ff'] = 'Added to cart';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ce4ee01637f4279d02d0f232459dc9a4'] = 'Purchased';
 $_MODULE['<{dashproducts}prestashop>dashproducts_37be07209f53a5d636d5c904ca9ae64c'] = 'Percentage';
-$_MODULE['<{dashproducts}prestashop>dashproducts_1eb18ea1d018abef5759cef60ddc289b'] = 'You must enable the "Save global page views" option from the "Data mining for statistics" module in order to display the most viewed products, or use the Google Analytics module.';
+$_MODULE['<{dashproducts}prestashop>dashproducts_1eb18ea1d018abef5759cef60ddc289b'] = 'You must enable the \"Save global page views\" option from the \"Data mining for statistics\" module in order to display the most viewed products, or use the Google Analytics module.';
 $_MODULE['<{dashproducts}prestashop>dashproducts_cf5f3091e30dee6597885d8c0e0c357f'] = 'Term';
 $_MODULE['<{dashproducts}prestashop>dashproducts_13348442cc6a27032d2b4aa28b75a5d3'] = 'Search';
 $_MODULE['<{dashproducts}prestashop>dashproducts_fd69c5cf902969e6fb71d043085ddee6'] = 'Results';
 $_MODULE['<{dashproducts}prestashop>dashproducts_38fb7d24e0d60a048f540ecb18e13376'] = '   Save   ';
 $_MODULE['<{dashproducts}prestashop>dashproducts_ea4788705e6873b424c65e91c2846b19'] = 'Cancel';
-$_MODULE['<{dashproducts}prestashop>dashproducts_85bf7474324d7d02725e4dca586afcd9'] = 'Number of "Recent Orders" to display';
-$_MODULE['<{dashproducts}prestashop>dashproducts_735b8c7f6d50b4c6f818deeab3cdea4a'] = 'Number of "Best Sellers" to display';
-$_MODULE['<{dashproducts}prestashop>dashproducts_14d24dddc4c67abf8364b980b2ccd5a2'] = 'Number of "Most Viewed" to display';
-$_MODULE['<{dashproducts}prestashop>dashproducts_f1ee1eaab342241138d45f35f4d8466a'] = 'Number of "Top Searches" to display';
+$_MODULE['<{dashproducts}prestashop>dashproducts_85bf7474324d7d02725e4dca586afcd9'] = 'Number of \"Recent Orders\" to display';
+$_MODULE['<{dashproducts}prestashop>dashproducts_735b8c7f6d50b4c6f818deeab3cdea4a'] = 'Number of \"Best Sellers\" to display';
+$_MODULE['<{dashproducts}prestashop>dashproducts_14d24dddc4c67abf8364b980b2ccd5a2'] = 'Number of \"Most Viewed\" to display';
+$_MODULE['<{dashproducts}prestashop>dashproducts_f1ee1eaab342241138d45f35f4d8466a'] = 'Number of \"Top Searches\" to display';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_3e361ce73ecabd6524af286d55809ed7'] = 'Products and Sales';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_f1206f9fadc5ce41694f69129aecac26'] = 'Configure';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_63a6a88c066880c5ac42394a22803ca6'] = 'Refresh';
@@ -44,6 +43,3 @@ $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_82f0f8d535196ce2a6ea16652
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_5da618e8e4b89c66fe86e32cdafde142'] = 'From';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_01b6e20344b68835c5ed1ddedf20d531'] = 'to';
 $_MODULE['<{dashproducts}prestashop>dashboard_zone_two_1daaca459ce1e6610e0b97a9ad723f27'] = 'Top %d most search terms';
-
-
-return $_MODULE;

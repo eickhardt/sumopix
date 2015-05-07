@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_bc3e73cfa718a3237fb1d7e1da491395'] = 'Manufacturers block';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_71087c7035e626bd33c72ae9a7f042af'] = 'Displays a block listing product manufacturers and/or brands.';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_f8c922e47935b3b76a749334045d61cf'] = 'There is an invalid number of elements.';
@@ -21,6 +20,3 @@ $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_2377be3c2ad9b435ba277
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_c70ad5f80e4c6f299013e08cabc980df'] = 'More about %s';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_bf24faeb13210b5a703f3ccef792b000'] = 'All manufacturers';
 $_MODULE['<{blockmanufacturer}prestashop>blockmanufacturer_1c407c118b89fa6feaae6b0af5fc0970'] = 'No manufacturer';
-
-
-return $_MODULE;

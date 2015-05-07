@@ -10,23 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '3660554770d19a9cd5-44430016',
-  'variables' => 
-  array (
-    'facebook_url' => 0,
-    'twitter_url' => 0,
-    'rss_url' => 0,
-    'youtube_url' => 0,
-    'google_plus_url' => 0,
-    'pinterest_url' => 0,
-    'vimeo_url' => 0,
-    'instagram_url' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_554770d1be80d1_41578056',
+  'unifunc' => 'content_554b3c2fb4cf59_25504149',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_554770d1be80d1_41578056')) {function content_554770d1be80d1_41578056($_smarty_tpl) {?><section id="social_block" class="pull-right">
+<?php if ($_valid && !is_callable('content_554b3c2fb4cf59_25504149')) {function content_554b3c2fb4cf59_25504149($_smarty_tpl) {?><section id="social_block" class="pull-right">
 	<ul>
 					<li class="facebook">
 				<a class="_blank" href="http://www.facebook.com/prestashop">
@@ -45,7 +34,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			</li>
 		                        	<li class="google-plus">
         		<a class="_blank" href="https://www.google.com/+prestashop">
-        			<span>Google+</span>
+        			<span>Google Plus</span>
         		</a>
         	</li>
                                 	</ul>

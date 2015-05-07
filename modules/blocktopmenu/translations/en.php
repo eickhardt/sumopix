@@ -2,12 +2,11 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e5b7525b4214a759876af4448bd6b87d'] = 'Top horizontal menu';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f7979d86fe0b2cd11f44747ed4ff1100'] = 'Adds a new horizontal menu to the top of your e-commerce website.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_efc226b17e0532afff43be870bff0de7'] = 'The settings have been updated.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_d9a776c185f73d018b2915f4d5e7cc05'] = 'Unable to update settings for the following shop(s): %s';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = 'Please complete the "Link" field.';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_f32880ae5183a02c0a743bfd37a42cbc'] = 'Please complete the \"Link\" field.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_cf8d684bd5f89d30da67c95363a48ab9'] = 'Please add a label.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e8d6809226ab177013e0a26bd2d8b60d'] = 'Please add a label for your default language.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_3da9d5745155a430aac6d7de3b6de0c8'] = 'The link has been added.';
@@ -15,7 +14,7 @@ $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_022bb0995e3256abeeac1788a5e2c5b
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e24e88b590807c2816be15abd7c7dbbc'] = 'The link has been removed.';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_e418ee8626f7941239c5b7a0880691ae'] = 'Unable to remove link for the following shop(s): %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_beb4f951c292ec9218473ffe5f59849d'] = 'The link has been edited.';
-$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = 'You cannot manage top menu items from a "All Shops" or a "Group Shop" context, select directly the shop you want to edit';
+$_MODULE['<{blocktopmenu}prestashop>blocktopmenu_b1a23c1a76918c10acc27bfa60798c42'] = 'You cannot manage top menu items from a \"All Shops\" or a \"Group Shop\" context, select directly the shop you want to edit';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_298b615220606d42b6ac60269df0d321'] = 'The modifications will be applied to shop: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_aef3662e6419ddaaa0a31df70e3b6557'] = 'The modifications will be applied to this group: %s';
 $_MODULE['<{blocktopmenu}prestashop>blocktopmenu_dd25f68471362f6f5f183d6158d67854'] = 'The modifications will be applied to all shops';
@@ -53,6 +52,3 @@ $_MODULE['<{blocktopmenu}prestashop>form_3713a99a6284e39061bd48069807aa52'] = 'S
 $_MODULE['<{blocktopmenu}prestashop>form_8fb31b552d63ffef9df733646a195bc0'] = 'Available items';
 $_MODULE['<{blocktopmenu}prestashop>form_1063e38cb53d94d386f21227fcd84717'] = 'Remove';
 $_MODULE['<{blocktopmenu}prestashop>form_ec211f7c20af43e742bf2570c3cb84f9'] = 'Add';
-
-
-return $_MODULE;

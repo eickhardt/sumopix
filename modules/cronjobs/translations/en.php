@@ -2,7 +2,11 @@
 
 global $_MODULE;
 $_MODULE = array();
-
+$_MODULE['<{cronjobs}prestashop>cronjobs_682ee2e41e510efdbced967430173c66'] = 'Cron tasks manager';
+$_MODULE['<{cronjobs}prestashop>cronjobs_c75e110ddb05aea61563c50d7baf0ae0'] = 'Manage all your automated web tasks from a single interface.';
+$_MODULE['<{cronjobs}prestashop>cronjobs_4093808c9781fb6ca2ed5ade71deff4d'] = 'To be able to use this module, please activate cURL (PHP extension).';
+$_MODULE['<{cronjobs}prestashop>cronjobs_035d5cdab2c65ad42b303f8125025160'] = 'Cron tasks';
+$_MODULE['<{cronjobs}prestashop>cronjobs_6588952424b58b4c9fc9df026b668991'] = 'Add new task';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_c9cc8cce247e49bae79f15173ce97354'] = 'Save';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_d4169d52732e9ae8df56d2cbcad81a94'] = 'Task description';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_70d4968bea9a6e76c0333904b9d385e4'] = 'Update my currencies';
@@ -38,18 +42,10 @@ $_MODULE['<{cronjobs}prestashop>cronjobsforms_8ed91b71d01993965915f3b296c20336']
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_50875e72e1477618055d1508112199b4'] = 'Every day of the week';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_6e7b34fa59e1bd229b207892956dc41c'] = 'Never';
 $_MODULE['<{cronjobs}prestashop>cronjobsforms_16ed0a7b977ec3bbd23badfb5580d56f'] = 'Every day of the month';
-$_MODULE['<{cronjobs}prestashop>cronjobs_682ee2e41e510efdbced967430173c66'] = 'Cron tasks manager';
-$_MODULE['<{cronjobs}prestashop>cronjobs_c75e110ddb05aea61563c50d7baf0ae0'] = 'Manage all your automated web tasks from a single interface.';
-$_MODULE['<{cronjobs}prestashop>cronjobs_4093808c9781fb6ca2ed5ade71deff4d'] = 'To be able to use this module, please activate cURL (PHP extension).';
-$_MODULE['<{cronjobs}prestashop>cronjobs_035d5cdab2c65ad42b303f8125025160'] = 'Cron tasks';
-$_MODULE['<{cronjobs}prestashop>cronjobs_6588952424b58b4c9fc9df026b668991'] = 'Add new task';
-$_MODULE['<{cronjobs}prestashop>form_ef7bd68a02b6b5656554f7a27d1c7bdf'] = 'Error!';
-$_MODULE['<{cronjobs}prestashop>form_dc3fd488f03d423a04da27ce66274c1b'] = 'Warning!';
-$_MODULE['<{cronjobs}prestashop>form_402e7a087747cb56c718bde84651f96a'] = 'Success!';
 $_MODULE['<{cronjobs}prestashop>configure_27c1f598c2b2b0a8e64424d257e8b398'] = 'What does this module do?';
 $_MODULE['<{cronjobs}prestashop>configure_c22203a97c7dd88dd68d1e864d46ee0c'] = 'Originally, cron is a Unix system tool that provides time-based job scheduling: you can create many cron jobs, which are then run periodically at fixed times, dates, or intervals.';
 $_MODULE['<{cronjobs}prestashop>configure_d24ca73e026491b9610193f36d5edec8'] = 'This module provides you with a cron-like tool: you can create jobs which will call a given set of secure URLs to your PrestaShop store, thus triggering updates and other automated tasks.';
 $_MODULE['<{cronjobs}prestashop>task_b43ff85c4fc17955aa3ba90827d65430'] = 'Do not forget to use an absolute URL in the target link to make it valid! The link also has to be on the same domain as the shop.';
-
-
-return $_MODULE;
+$_MODULE['<{cronjobs}prestashop>form_ef7bd68a02b6b5656554f7a27d1c7bdf'] = 'Error!';
+$_MODULE['<{cronjobs}prestashop>form_dc3fd488f03d423a04da27ce66274c1b'] = 'Warning!';
+$_MODULE['<{cronjobs}prestashop>form_402e7a087747cb56c718bde84651f96a'] = 'Success!';

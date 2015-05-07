@@ -10,33 +10,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     ),
   ),
   'nocache_hash' => '28309554770d1c0b367-75979645',
-  'variables' => 
-  array (
-    'block' => 0,
-    'cms_titles' => 0,
-    'cms_key' => 0,
-    'cms_title' => 0,
-    'cms_page' => 0,
-    'link' => 0,
-    'show_price_drop' => 0,
-    'PS_CATALOG_MODE' => 0,
-    'show_new_products' => 0,
-    'show_best_sales' => 0,
-    'display_stores_footer' => 0,
-    'show_contact' => 0,
-    'contact_url' => 0,
-    'cmslinks' => 0,
-    'cmslink' => 0,
-    'show_sitemap' => 0,
-    'footer_text' => 0,
-    'display_poweredby' => 0,
-  ),
-  'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_554770d21495f5_40254458',
+  'unifunc' => 'content_554b3c2fb878d3_52618539',
+  'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_554770d21495f5_40254458')) {function content_554770d21495f5_40254458($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_554b3c2fb878d3_52618539')) {function content_554b3c2fb878d3_52618539($_smarty_tpl) {?>
 	<!-- MODULE Block footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Information</h4>
@@ -52,8 +31,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</a>
 			</li>
 										<li class="item">
-					<a href="http://dev-sumopix.dk/da/best-sales" title="Mest solgte">
-						Mest solgte
+					<a href="http://dev-sumopix.dk/da/best-sales" title="Top sellers">
+						Top sellers
 					</a>
 				</li>
 										<li class="item">

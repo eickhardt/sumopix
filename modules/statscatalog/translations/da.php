@@ -2,7 +2,6 @@
 
 global $_MODULE;
 $_MODULE = array();
-
 $_MODULE['<{statscatalog}prestashop>statscatalog_cf3aa21c6a2147ddbd86f34091daeccd'] = 'Katalogstatistik';
 $_MODULE['<{statscatalog}prestashop>statscatalog_08a7c3cf820979d2c8d4de4f47abb5e6'] = 'Tilføjer et faneblad med generel statistik om dit varekatalog.';
 $_MODULE['<{statscatalog}prestashop>statscatalog_74cda5a02df704cc5c3e8fee7fc0f7bc'] = '(1 køb / %d besøg)';
@@ -26,6 +25,3 @@ $_MODULE['<{statscatalog}prestashop>statscatalog_49ee3087348e8d44e1feda191744398
 $_MODULE['<{statscatalog}prestashop>statscatalog_8e7c9a35104a5a68199678bd6bc5d187'] = 'Rediger / Se';
 $_MODULE['<{statscatalog}prestashop>statscatalog_7dce122004969d56ae2e0245cb754d35'] = 'Rediger';
 $_MODULE['<{statscatalog}prestashop>statscatalog_4351cfebe4b61d8aa5efa1d020710005'] = 'Vis';
-
-
-return $_MODULE;

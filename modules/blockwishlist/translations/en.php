@@ -2,7 +2,14 @@
 
 global $_MODULE;
 $_MODULE = array();
-
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4a84e5921e203aede886d04fc41a414b'] = 'remove this product from my wishlist';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_f2a6c498fb90ee345d997f888fce3b18'] = 'Delete';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Product detail';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_d037160cfb1fa5520563302d3a32630a'] = 'You must create a wishlist before adding products';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_09dc02ecbb078868a3a86dded030076d'] = 'No products';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_2d96bb66d8541a89620d3c158ceef42b'] = 'Add to wishlist';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_ec211f7c20af43e742bf2570c3cb84f9'] = 'Add';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_15b94c64c4d5a4f7172e5347a36b94fd'] = 'Add to my wishlist';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_2715a65604e1af3d6933b61704865daf'] = 'Wishlist block';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_7244141a5de030c4c882556f4fd70a8b'] = 'Adds a block containing the customer\'s wishlists.';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_9ae79c1fccd231ac7fbbf3235dbf6326'] = 'My wishlist';
@@ -26,11 +33,26 @@ $_MODULE['<{blockwishlist}prestashop>blockwishlist_12246cb491c807e85279b8aed74ea
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_be53a0541a6d36f6ecb879fa2c584b08'] = 'Image';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_47ac923d219501859fb68fed8c8db77b'] = 'Combination';
 $_MODULE['<{blockwishlist}prestashop>blockwishlist_81355310011c137fdd21cf9a1394ed6a'] = 'Product list';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_7ec9cceb94985909c6994e95c31c1aa8'] = 'My wishlists';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_4a84e5921e203aede886d04fc41a414b'] = 'remove this product from my wishlist';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_09dc02ecbb078868a3a86dded030076d'] = 'No products';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_641254d77e7a473aa5910574f3f9453c'] = 'Wishlist';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_2d96bb66d8541a89620d3c158ceef42b'] = 'Add to wishlist';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_33010ef6524c87c41380e2cc5e212f73'] = 'Add to %s';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_15b94c64c4d5a4f7172e5347a36b94fd'] = 'Add to my wishlist';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_6a5373df703ab2827a4ba7facdfcf779'] = 'Add to Wishlist';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_top_16a23698e7cf5188ce1c07df74298076'] = 'You must be logged in to manage your wishlist.';
+$_MODULE['<{blockwishlist}prestashop>blockwishlist_top_ab086554d10bb35f820e7a704105abbf'] = 'Added to your wishlist.';
 $_MODULE['<{blockwishlist}prestashop>buywishlistproduct_607e1d854783c8229998ac2b5b6923d3'] = 'Invalid token';
 $_MODULE['<{blockwishlist}prestashop>buywishlistproduct_b0ffc4925401f6f4edb038f5ca954937'] = 'You must log in';
 $_MODULE['<{blockwishlist}prestashop>cart_607e1d854783c8229998ac2b5b6923d3'] = 'Invalid token';
 $_MODULE['<{blockwishlist}prestashop>cart_a9839ad48cf107667f73bad1d651f2ca'] = 'No template found';
 $_MODULE['<{blockwishlist}prestashop>cart_16a23698e7cf5188ce1c07df74298076'] = 'You must be logged in to manage your wishlist.';
+$_MODULE['<{blockwishlist}prestashop>managewishlist_a9839ad48cf107667f73bad1d651f2ca'] = 'No template found';
+$_MODULE['<{blockwishlist}prestashop>my-account_7ec9cceb94985909c6994e95c31c1aa8'] = 'My wishlists';
+$_MODULE['<{blockwishlist}prestashop>sendwishlist_8f4be21ec3cfbba15a349e9c5e888579'] = 'invalid token';
+$_MODULE['<{blockwishlist}prestashop>sendwishlist_90d8a44a1fba13198035d86caeeb2d4d'] = 'Invalid wishlist';
+$_MODULE['<{blockwishlist}prestashop>sendwishlist_072df51ea0cb142b770d6209dab5a85b'] = 'Wishlist send error';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_607e1d854783c8229998ac2b5b6923d3'] = 'Invalid token';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_b30545c7b2d429352b9afdd85be810c7'] = 'You must specify a name.';
 $_MODULE['<{blockwishlist}prestashop>mywishlist_b74c118d823d908d653cfbf1c877ae55'] = 'This name is already used by another list.';
@@ -41,31 +63,6 @@ $_MODULE['<{blockwishlist}prestashop>mywishlist_3540aa14bffcdfbbfc3aafbbcb028a1f
 $_MODULE['<{blockwishlist}prestashop>view_655d20c1ca69519ca647684edbb2db35'] = 'High';
 $_MODULE['<{blockwishlist}prestashop>view_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Medium';
 $_MODULE['<{blockwishlist}prestashop>view_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Low';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_a9839ad48cf107667f73bad1d651f2ca'] = 'No template found';
-$_MODULE['<{blockwishlist}prestashop>sendwishlist_8f4be21ec3cfbba15a349e9c5e888579'] = 'invalid token';
-$_MODULE['<{blockwishlist}prestashop>sendwishlist_90d8a44a1fba13198035d86caeeb2d4d'] = 'Invalid wishlist';
-$_MODULE['<{blockwishlist}prestashop>sendwishlist_072df51ea0cb142b770d6209dab5a85b'] = 'Wishlist send error';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4a84e5921e203aede886d04fc41a414b'] = 'remove this product from my wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_f2a6c498fb90ee345d997f888fce3b18'] = 'Delete';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Product detail';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_d037160cfb1fa5520563302d3a32630a'] = 'You must create a wishlist before adding products';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-ajax_09dc02ecbb078868a3a86dded030076d'] = 'No products';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_641254d77e7a473aa5910574f3f9453c'] = 'Wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_2d96bb66d8541a89620d3c158ceef42b'] = 'Add to wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_33010ef6524c87c41380e2cc5e212f73'] = 'Add to %s';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_15b94c64c4d5a4f7172e5347a36b94fd'] = 'Add to my wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_button_6a5373df703ab2827a4ba7facdfcf779'] = 'Add to Wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_2d96bb66d8541a89620d3c158ceef42b'] = 'Add to wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_ec211f7c20af43e742bf2570c3cb84f9'] = 'Add';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_15b94c64c4d5a4f7172e5347a36b94fd'] = 'Add to my wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_top_16a23698e7cf5188ce1c07df74298076'] = 'You must be logged in to manage your wishlist.';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_top_ab086554d10bb35f820e7a704105abbf'] = 'Added to your wishlist.';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_7ec9cceb94985909c6994e95c31c1aa8'] = 'My wishlists';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_4a84e5921e203aede886d04fc41a414b'] = 'remove this product from my wishlist';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_f2a6c498fb90ee345d997f888fce3b18'] = 'Delete';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_4b7d496eedb665d0b5f589f2f874e7cb'] = 'Product detail';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist_09dc02ecbb078868a3a86dded030076d'] = 'No products';
-$_MODULE['<{blockwishlist}prestashop>my-account_7ec9cceb94985909c6994e95c31c1aa8'] = 'My wishlists';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_f78674b9c6b19504756230c57f6aec38'] = 'Close this wishlist';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_0ac1aeb2429db494dd42ad2dc219ca7e'] = 'Hide products';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_0de9d09a36e820f9da7e87ab3678dd12'] = 'Show products';
@@ -80,7 +77,6 @@ $_MODULE['<{blockwishlist}prestashop>managewishlist_502996d9790340c5fd7b86a5b93b
 $_MODULE['<{blockwishlist}prestashop>managewishlist_655d20c1ca69519ca647684edbb2db35'] = 'High';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_87f8a6ab85c9ced3702b4ea641ad4bb5'] = 'Medium';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_28d0edd045e05cf5af64e35ae0c4c6ef'] = 'Low';
-$_MODULE['<{blockwishlist}prestashop>managewishlist_6bc362dbf494c61ea117fe3c71ca48a5'] = 'Move';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_e68ee0c6758ab5b0eea4e105d694f5c4'] = 'Move to %s';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_c9cc8cce247e49bae79f15173ce97354'] = 'Save';
 $_MODULE['<{blockwishlist}prestashop>managewishlist_ce8ae9da5b7cd6c3df2929543a9af92d'] = 'Email';
@@ -112,9 +108,3 @@ $_MODULE['<{blockwishlist}prestashop>view_694e8d1f2ee056f98ee488bdc4982d73'] = '
 $_MODULE['<{blockwishlist}prestashop>view_502996d9790340c5fd7b86a5b93b1c9f'] = 'Priority';
 $_MODULE['<{blockwishlist}prestashop>view_4351cfebe4b61d8aa5efa1d020710005'] = 'View';
 $_MODULE['<{blockwishlist}prestashop>view_2d0f6b8300be19cf35e89e66f0677f95'] = 'Add to cart';
-$_MODULE['<{blockwishlist}prestashop>blockwishlist-extra_33010ef6524c87c41380e2cc5e212f73'] = 'Add to %s';
-$_MODULE['<{blockwishlist}prestashop>view_d95cf4ab2cbf1dfb63f066b50558b07d'] = 'My account';
-$_MODULE['<{blockwishlist}prestashop>view_7ec9cceb94985909c6994e95c31c1aa8'] = 'My wishlists';
-
-
-return $_MODULE;

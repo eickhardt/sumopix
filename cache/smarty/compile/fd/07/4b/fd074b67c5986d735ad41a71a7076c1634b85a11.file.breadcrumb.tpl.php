@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-05-05 10:38:19
+<?php /* Smarty version Smarty-3.1.19, created on 2015-05-07 12:46:50
          compiled from "C:\xampp\htdocs\sumopix\themes\sumopix-theme\breadcrumb.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:317155548817b037a51-89598414%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fd074b67c5986d735ad41a71a7076c1634b85a11' => 
     array (
       0 => 'C:\\xampp\\htdocs\\sumopix\\themes\\sumopix-theme\\breadcrumb.tpl',
-      1 => 1425640160,
+      1 => 1430995608,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.19',
+  'unifunc' => 'content_5548817b2b07e0_92433612',
   'variables' => 
   array (
     'base_dir' => 0,
@@ -23,8 +25,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'navigationPipe' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5548817b2b07e0_92433612',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5548817b2b07e0_92433612')) {function content_5548817b2b07e0_92433612($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\sumopix\\tools\\smarty\\plugins\\modifier.replace.php';
 if (!is_callable('smarty_modifier_regex_replace')) include 'C:\\xampp\\htdocs\\sumopix\\tools\\smarty\\plugins\\modifier.regex_replace.php';
