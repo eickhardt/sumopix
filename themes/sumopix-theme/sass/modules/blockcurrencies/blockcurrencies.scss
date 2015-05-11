@@ -3,6 +3,7 @@
 #currencies-block-top {
 	float: right;
 	border-left: 1px solid #515151;
+	border-right: 1px solid #515151;
 	position: relative;
 	// max 479px
 	@media (max-width: $screen-xs - 1) {
@@ -13,7 +14,8 @@
 	}
 	div.current {
 		font-weight: bold;
-		padding: 8px 10px 10px 10px;
+		// padding: 8px 10px 10px 10px;
+		padding: 10px 10px 10px 10px;
 		color: $light-text-color;
 		text-shadow: 1px 1px rgba(0,0,0,0.2);
 		cursor: pointer;
@@ -24,7 +26,8 @@
 			font-size: 11px;
 		}
 		strong {
-			color: #777777;
+			// color: #777777;
+			color: white;
 		}
 		&:hover, &.active {
 			background: #2b2b2b;
@@ -34,7 +37,8 @@
 			font-family: $font-icon;
 			font-size: 18px;
 			line-height: 18px;
-			color: #686666;
+			// color: #686666;
+			color: white;
 			vertical-align: -2px;
 			padding-left: 12px;
 			// max 479px

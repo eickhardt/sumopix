@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-05-04 15:15:17
+<?php /* Smarty version Smarty-3.1.19, created on 2015-05-11 15:14:08
          compiled from "C:\xampp\htdocs\sumopix\admin278qlunth\themes\default\template\controllers\modules\js.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:27594554770e5a04368-74987322%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:12625550ab20187df9-53865665%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '27594554770e5a04368-74987322',
+  'nocache_hash' => '12625550ab20187df9-53865665',
   'function' => 
   array (
   ),
@@ -28,9 +28,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_554770e5c03f65_99877658',
+  'unifunc' => 'content_5550ab20383b79_33967062',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_554770e5c03f65_99877658')) {function content_554770e5c03f65_99877658($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\sumopix\\tools\\smarty\\plugins\\modifier.replace.php';
+<?php if ($_valid && !is_callable('content_5550ab20383b79_33967062')) {function content_5550ab20383b79_33967062($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_replace')) include 'C:\\xampp\\htdocs\\sumopix\\tools\\smarty\\plugins\\modifier.replace.php';
 ?>
 
 <script type="text/javascript"><?php echo $_smarty_tpl->tpl_vars['autocompleteList']->value;?>

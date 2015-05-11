@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-05-05 14:17:26
+<?php /* Smarty version Smarty-3.1.19, created on 2015-05-11 15:20:48
          compiled from "C:\xampp\htdocs\sumopix\admin278qlunth\themes\default\template\layout-ajax.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:125245548b4d6abc9b9-05266884%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:37125550acb00bc432-76710716%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '125245548b4d6abc9b9-05266884',
+  'nocache_hash' => '37125550acb00bc432-76710716',
   'function' => 
   array (
   ),
@@ -33,9 +33,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5548b4d6efa9b4_55176979',
+  'unifunc' => 'content_5550acb04a06a4_53723294',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5548b4d6efa9b4_55176979')) {function content_5548b4d6efa9b4_55176979($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5550acb04a06a4_53723294')) {function content_5550acb04a06a4_53723294($_smarty_tpl) {?>
 <?php if (isset($_smarty_tpl->tpl_vars['json']->value)) {?>
 {<?php if (isset($_smarty_tpl->tpl_vars['status']->value)&&trim($_smarty_tpl->tpl_vars['status']->value)!='') {?><?php $_smarty_tpl->tpl_vars['hasresult'] = new Smarty_variable('ok', null, 0);?>"status" : "<?php echo $_smarty_tpl->tpl_vars['status']->value;?>
 "<?php }?><?php if (isset($_smarty_tpl->tpl_vars['confirmations']->value)&&count($_smarty_tpl->tpl_vars['confirmations']->value)>0) {?><?php if ($_smarty_tpl->tpl_vars['hasresult']->value=='ok') {?>,<?php }?><?php $_smarty_tpl->tpl_vars['hasresult'] = new Smarty_variable('ok', null, 0);?>"confirmations" : <?php echo $_smarty_tpl->tpl_vars['confirmations']->value;?>

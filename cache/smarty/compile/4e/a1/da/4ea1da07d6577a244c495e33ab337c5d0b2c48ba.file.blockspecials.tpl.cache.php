@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-05-07 11:43:46
+<?php /* Smarty version Smarty-3.1.19, created on 2015-05-11 10:53:46
          compiled from "C:\xampp\htdocs\sumopix\themes\sumopix-theme\modules\blockspecials\blockspecials.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:5531554b33d2a744f3-73724487%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3221755506e1a650724-45310733%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '5531554b33d2a744f3-73724487',
+  'nocache_hash' => '3221755506e1a650724-45310733',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_554b33d2d5e725_44307654',
+  'unifunc' => 'content_55506e1a94e1d8_59170601',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_554b33d2d5e725_44307654')) {function content_554b33d2d5e725_44307654($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\sumopix\\tools\\smarty\\plugins\\modifier.date_format.php';
+<?php if ($_valid && !is_callable('content_55506e1a94e1d8_59170601')) {function content_55506e1a94e1d8_59170601($_smarty_tpl) {?><?php if (!is_callable('smarty_modifier_date_format')) include 'C:\\xampp\\htdocs\\sumopix\\tools\\smarty\\plugins\\modifier.date_format.php';
 ?>
 
 <!-- MODULE Block specials -->

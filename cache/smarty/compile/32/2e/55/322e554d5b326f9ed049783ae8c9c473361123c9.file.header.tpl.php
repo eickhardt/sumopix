@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2015-05-05 14:19:42
+<?php /* Smarty version Smarty-3.1.19, created on 2015-05-11 10:53:45
          compiled from "C:\xampp\htdocs\sumopix\modules\homesliderpro\views\templates\hook\header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:102725548b55e197c42-35020483%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3164955506e1949ab20-99322151%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '102725548b55e197c42-35020483',
+  'nocache_hash' => '3164955506e1949ab20-99322151',
   'function' => 
   array (
   ),
@@ -26,9 +26,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5548b55e652c51_24785862',
+  'unifunc' => 'content_55506e198a2020_32788023',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5548b55e652c51_24785862')) {function content_5548b55e652c51_24785862($_smarty_tpl) {?><style type="text/css" class="slidersEverywhereStyle">
+<?php if ($_valid && !is_callable('content_55506e198a2020_32788023')) {function content_55506e198a2020_32788023($_smarty_tpl) {?><style type="text/css" class="slidersEverywhereStyle">
 
 
 <?php  $_smarty_tpl->tpl_vars['conf'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['conf']->_loop = false;
