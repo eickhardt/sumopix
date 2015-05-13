@@ -1,1 +1,4 @@
 /nbproject/private/
+/cache/smarty/compile/*
+/cache/smarty/cache/*
+shop.cnf
