@@ -84,7 +84,7 @@ class AzFotolia extends Module
             array(
                 'words' => 'car',
                 'language_id' => Fotolia_Api::LANGUAGE_ID_EN_US,
-                'limit' => 1,
+                'limit' => 5,
             )
         );
         
