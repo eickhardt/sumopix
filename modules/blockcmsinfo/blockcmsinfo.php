@@ -38,7 +38,7 @@ class Blockcmsinfo extends Module
 	{
 		$this->name = 'blockcmsinfo';
 		$this->tab = 'front_office_features';
-		$this->version = '1.5.2';
+		$this->version = '1.5.4';
 		$this->author = 'PrestaShop';
 		$this->bootstrap = true;
 		$this->need_instance = 0;
@@ -102,7 +102,9 @@ class Blockcmsinfo extends Module
 
 		if (Tools::isSubmit('saveblockcmsinfo'))
 		{
-			if ($this->processSaveCmsInfo())
+			if ((Tools::getValue('text_'.(int)Configuration::get('PS_LANG_DEFAULT'))) == false)
+				return $this->html . $this->displayError($this->l('You must fill in all fields.')) . $this->renderForm();
+			elseif ($this->processSaveCmsInfo())
 				return $this->html . $this->renderList();
 			else
 				return $this->html . $this->renderForm();
