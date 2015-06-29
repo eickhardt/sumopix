@@ -1,6 +1,8 @@
 <div id="azfotolia">
     <h1>Fotolia</h1>
     
+    {$results|@print_r}
+
     <ul>
     {foreach from=$results key=k item=result}
         {if is_numeric($k)}
