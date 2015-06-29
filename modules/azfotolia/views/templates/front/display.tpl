@@ -1,7 +1,5 @@
 <div id="azfotolia">
     <h1>Fotolia</h1>
-    
-    {$results|@print_r}
 
     <form>
         Search images:<br>
