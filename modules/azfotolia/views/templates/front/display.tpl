@@ -3,6 +3,12 @@
     
     {$results|@print_r}
 
+    <form>
+        Search images:<br>
+        <input type="text" name="fs">
+        <input type="submit" name="fotolia_seach" placeholder="Search Fotolia images">
+    </form>
+
     <ul>
     {foreach from=$results key=k item=result}
         {if is_numeric($k)}

@@ -76,15 +76,25 @@ class AzFotolia extends Module
      */
     public function hookDisplayLeftColumn($params)
     {
+        // Check if we have any input from the search bar
+        if (Tools::isSubmit('fotolia_search') && Validate::isValidSearch(Tools::getValue('fs'))
+        {
+            $query_string = Tools::getValue('fs');
+        }
+        else
+        {
+            $query_string = 'horse';
+        }
+
         // Instatiate Fotolia API
         $fotolia_api = new Fotolia_Api('J0ZhzOqFs8z4h5YfsDhZWEGUDibMgQAq');
         
-        // Search for files
+        // Search for image files
         $results = $fotolia_api->getSearchResults(
             array(
-                'words' => 'car',
+                'words' => $query_string,
                 'language_id' => Fotolia_Api::LANGUAGE_ID_EN_US,
-                'limit' => 5,
+                'limit' => 20,
             )
         );
         
