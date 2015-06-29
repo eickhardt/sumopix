@@ -77,6 +77,7 @@ class AzFotolia extends Module
     public function hookDisplayLeftColumn($params)
     {
         // Check if we have any input from the search bar
+        error_log(Tools::getValue('fs'));
         if (Tools::getValue('fs'))
         {
             $query_string = Tools::getValue('fs');
