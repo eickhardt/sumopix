@@ -1,4 +1,7 @@
 /nbproject/private/
 /cache/smarty/compile/*
 /cache/smarty/cache/*
+/config/xml/*
+/translations/*
+/img/tmp/*
 shop.cnf
