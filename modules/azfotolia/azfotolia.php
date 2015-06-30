@@ -78,6 +78,7 @@ class AzFotolia extends Module
     {
         // Check if we have any input from the search bar
         error_log(Tools::getValue('fs'));
+        echo $toerj;
         if (Tools::getValue('fs'))
         {
             $query_string = Tools::getValue('fs');
