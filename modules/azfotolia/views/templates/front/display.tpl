@@ -10,7 +10,7 @@
     <ul>
     {foreach from=$results key=k item=result}
         {if is_numeric($k)}
-            <li>Matching media ID: {$result['id']}</li>
+            <li>Matching media: <img src="{$result['thumbnail_url']}" alt="{$result['title']}" title="{$result['title']}"> {*$result['id']*}</li>
         {/if}
     {/foreach}
     </ul>
