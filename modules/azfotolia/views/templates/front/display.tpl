@@ -1,7 +1,7 @@
 <div id="azfotolia">
     <h1>Fotolia</h1>
 
-    <form>
+    <form method="POST">
         Search images:<br>
         <input type="text" name="fs">
         <input type="submit" name="fotolia_seach" placeholder="Search Fotolia images">
