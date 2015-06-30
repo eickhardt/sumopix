@@ -10,7 +10,7 @@
     <ul>
     {foreach from=$results key=k item=result}
         {if is_numeric($k)}
-            <li style="display: inline-block;">Matching media: <img src="{$result['thumbnail_url']}" alt="{$result['title']}" title="{$result['title']}"> {*$result['id']*}</li>
+            <li style="display: inline-block;"><img src="{$result['thumbnail_url']}" alt="{$result['title']}" title="{$result['title']}"> {*$result['id']*}</li>
         {/if}
     {foreachelse}
         No results.

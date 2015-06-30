@@ -94,7 +94,7 @@ class AzFotolia extends Module
             array(
                 'words' => $query_string,
                 'language_id' => Fotolia_Api::LANGUAGE_ID_EN_US,
-                'limit' => 20,
+                'limit' => 50,
             )
         );
         
